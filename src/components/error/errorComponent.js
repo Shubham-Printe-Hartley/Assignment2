@@ -1,7 +1,7 @@
 import {Modal, Button} from 'react-bootstrap';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import {logout} from '../../redux/actions'
+import {logout} from '../../redux/actions';
 
 const Error = (props) => {
 

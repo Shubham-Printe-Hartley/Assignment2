@@ -34,7 +34,10 @@ export const userLoginReducer = (state=initialState, action) => {
 
     // when logout was requested
     case loginConstants.USER_LOGOUT:
-      return initialState
+      return {
+        ...state,
+        data: "Logged-out",
+      }
 
     default: 
       return state;
